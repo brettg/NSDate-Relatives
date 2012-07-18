@@ -11,6 +11,7 @@
 const NSUInteger NSCalendarUnitsForAdjusting = NSYearCalendarUnit | NSMonthCalendarUnit |
                                                NSDayCalendarUnit | NSHourCalendarUnit |
                                                NSMinuteCalendarUnit | NSSecondCalendarUnit |
+                                               NSWeekdayCalendarUnit |
                                                NSWeekOfYearCalendarUnit;
 
 @implementation NSDate (Relatives)
@@ -20,7 +21,9 @@ const NSUInteger NSCalendarUnitsForAdjusting = NSYearCalendarUnit | NSMonthCalen
     return [self dateByPreseveringComponents:comps];
 }
 - (NSDate *)beginningOfWeek{
-    return [self dateByPreseveringComponents:NSYearCalendarUnit | NSWeekOfYearCalendarUnit];
+    return [[self dateByAdjustingComponents:^(NSDateComponents *components) {
+        components.day -= (components.weekday - 1);
+    }] beginningOfDay];
 }
 - (NSDate *)beginningOfMonth{
     return [self dateByPreseveringComponents:NSYearCalendarUnit | NSMonthCalendarUnit];

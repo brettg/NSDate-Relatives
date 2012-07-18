@@ -14,6 +14,14 @@ describe 'NSDate+Relatives' do
     it 'should return 00:00 Sunday of that week' do
       base_date.beginningOfWeek.should == Time.local(2011, 7, 17)
     end
+    it 'should work across month bounds' do
+      d = Time.local(2011, 7, 1)
+      d.beginningOfWeek.should == Time.local(2011, 6, 26)
+    end
+    it 'should return same day for Sunday' do
+      d = Time.local(2011, 7, 10)
+      d.beginningOfWeek.should == d
+    end
   end
 
   describe 'begginningOfMonth' do
