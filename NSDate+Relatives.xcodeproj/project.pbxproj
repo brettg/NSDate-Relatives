@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BDE1B2215B72ED500A0A763 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDE1A4215B7232F00A0A763 /* Foundation.framework */; };
+		8BDE1B4C15B7401B00A0A763 /* NSDate+Relatives.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BDE1B4A15B7401B00A0A763 /* NSDate+Relatives.h */; };
+		8BDE1B4D15B7401B00A0A763 /* NSDate+Relatives.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE1B4B15B7401B00A0A763 /* NSDate+Relatives.m */; };
+		8BDE1B5615B7466F00A0A763 /* nsdate-relatives_spec.rb in Resources */ = {isa = PBXBuildFile; fileRef = 8BDE1B4F15B7466F00A0A763 /* nsdate-relatives_spec.rb */; };
+		8BDE1B5715B7466F00A0A763 /* spec_helper.rb in Resources */ = {isa = PBXBuildFile; fileRef = 8BDE1B5015B7466F00A0A763 /* spec_helper.rb */; };
+		8BDE1B5815B7466F00A0A763 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BDE1B5215B7466F00A0A763 /* InfoPlist.strings */; };
+		8BDE1B5A15B7466F00A0A763 /* nsdate-relatives-for-specs-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 8BDE1B5515B7466F00A0A763 /* nsdate-relatives-for-specs-Prefix.pch */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8BDE1A4215B7232F00A0A763 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BDE1B0D15B72E2E00A0A763 /* nsdate-relatives-for-specs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "nsdate-relatives-for-specs.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BDE1B4A15B7401B00A0A763 /* NSDate+Relatives.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Relatives.h"; sourceTree = "<group>"; };
+		8BDE1B4B15B7401B00A0A763 /* NSDate+Relatives.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Relatives.m"; sourceTree = "<group>"; };
+		8BDE1B4F15B7466F00A0A763 /* nsdate-relatives_spec.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = "nsdate-relatives_spec.rb"; path = "spec/nsdate-relatives_spec.rb"; sourceTree = "<group>"; };
+		8BDE1B5015B7466F00A0A763 /* spec_helper.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = spec_helper.rb; path = spec/spec_helper.rb; sourceTree = "<group>"; };
+		8BDE1B5315B7466F00A0A763 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BDE1B5415B7466F00A0A763 /* nsdate-relatives-for-specs-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "nsdate-relatives-for-specs-Info.plist"; sourceTree = "<group>"; };
+		8BDE1B5515B7466F00A0A763 /* nsdate-relatives-for-specs-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "nsdate-relatives-for-specs-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BDE1B0915B72E2E00A0A763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BDE1B2215B72ED500A0A763 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BDE1A3415B7232F00A0A763 = {
+			isa = PBXGroup;
+			children = (
+				8BDE1B4815B7400400A0A763 /* src */,
+				8BDE1B4E15B7462800A0A763 /* spec */,
+				8BDE1A4115B7232F00A0A763 /* Frameworks */,
+				8BDE1A4015B7232F00A0A763 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BDE1A4015B7232F00A0A763 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BDE1B0D15B72E2E00A0A763 /* nsdate-relatives-for-specs.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BDE1A4115B7232F00A0A763 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BDE1A4215B7232F00A0A763 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BDE1B4815B7400400A0A763 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				8BDE1B4A15B7401B00A0A763 /* NSDate+Relatives.h */,
+				8BDE1B4B15B7401B00A0A763 /* NSDate+Relatives.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		8BDE1B4E15B7462800A0A763 /* spec */ = {
+			isa = PBXGroup;
+			children = (
+				8BDE1B4F15B7466F00A0A763 /* nsdate-relatives_spec.rb */,
+				8BDE1B5015B7466F00A0A763 /* spec_helper.rb */,
+				8BDE1B5115B7466F00A0A763 /* spec-build-files */,
+			);
+			name = spec;
+			sourceTree = "<group>";
+		};
+		8BDE1B5115B7466F00A0A763 /* spec-build-files */ = {
+			isa = PBXGroup;
+			children = (
+				8BDE1B5215B7466F00A0A763 /* InfoPlist.strings */,
+				8BDE1B5415B7466F00A0A763 /* nsdate-relatives-for-specs-Info.plist */,
+				8BDE1B5515B7466F00A0A763 /* nsdate-relatives-for-specs-Prefix.pch */,
+			);
+			name = "spec-build-files";
+			path = "spec/spec-build-files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8BDE1B0A15B72E2E00A0A763 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BDE1B4C15B7401B00A0A763 /* NSDate+Relatives.h in Headers */,
+				8BDE1B5A15B7466F00A0A763 /* nsdate-relatives-for-specs-Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8BDE1B0C15B72E2E00A0A763 /* nsdate-relatives-for-specs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BDE1B1E15B72E2E00A0A763 /* Build configuration list for PBXNativeTarget "nsdate-relatives-for-specs" */;
+			buildPhases = (
+				8BDE1B0815B72E2E00A0A763 /* Sources */,
+				8BDE1B0915B72E2E00A0A763 /* Frameworks */,
+				8BDE1B0A15B72E2E00A0A763 /* Headers */,
+				8BDE1B0B15B72E2E00A0A763 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nsdate-relatives-for-specs";
+			productName = "nsdate-relatives-for-specs";
+			productReference = 8BDE1B0D15B72E2E00A0A763 /* nsdate-relatives-for-specs.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BDE1A3615B7232F00A0A763 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 8BDE1A3915B7232F00A0A763 /* Build configuration list for PBXProject "NSDate+Relatives" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8BDE1A3415B7232F00A0A763;
+			productRefGroup = 8BDE1A4015B7232F00A0A763 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BDE1B0C15B72E2E00A0A763 /* nsdate-relatives-for-specs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BDE1B0B15B72E2E00A0A763 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BDE1B5615B7466F00A0A763 /* nsdate-relatives_spec.rb in Resources */,
+				8BDE1B5715B7466F00A0A763 /* spec_helper.rb in Resources */,
+				8BDE1B5815B7466F00A0A763 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BDE1B0815B72E2E00A0A763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BDE1B4D15B7401B00A0A763 /* NSDate+Relatives.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BDE1B5215B7466F00A0A763 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BDE1B5315B7466F00A0A763 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BDE1A4A15B7232F00A0A763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8BDE1A4B15B7232F00A0A763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BDE1B1F15B72E2E00A0A763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "spec/spec-build-files/nsdate-relatives-for-specs-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "spec/spec-build-files/nsdate-relatives-for-specs-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		8BDE1B2015B72E2E00A0A763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "spec/spec-build-files/nsdate-relatives-for-specs-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "spec/spec-build-files/nsdate-relatives-for-specs-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BDE1A3915B7232F00A0A763 /* Build configuration list for PBXProject "NSDate+Relatives" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BDE1A4A15B7232F00A0A763 /* Debug */,
+				8BDE1A4B15B7232F00A0A763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BDE1B1E15B72E2E00A0A763 /* Build configuration list for PBXNativeTarget "nsdate-relatives-for-specs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BDE1B1F15B72E2E00A0A763 /* Debug */,
+				8BDE1B2015B72E2E00A0A763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BDE1A3615B7232F00A0A763 /* Project object */;
+}
